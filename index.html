@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+       <div class="navbar">
+           <div class="icon">
+                <div class="logo">My Website</div>
+           </div>
+           <div class="menu">
+               <ul>
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">ABOUT</a></li>
+                   <li><a href="#">INFO</a></li>
+                   <li><a href="#">RESUME</a></li>
+               </ul>
+           </div>
+           <div id="search">
+               <input class="srch" type="search" placeholder="Search Here">
+               <a href="#"><button id="button">Search</button></a>
+           </div>
+       </div>
+       <div id="body">
+           <form action="">
+              <p id="loginto">Log into My Website</p>
+               <input id="login-textbox" class="textbox" type="text" placeholder="Email or phone number">
+               <br>
+               <input id="password-textbox" class="textbox" type="password" placeholder="Password">
+               <br> <button onclick="clickLoginButton()" type="button" id="btn">Log in</button>
+               <br>
+               <a id="forgot" href="#">Forgot password?</a>
+               <br>
+               <button id="create">Create new account</button>
+           </form>
+       </div>
+        <div id="welcome">
+            <p class="welcome">Welcome To My Website</p>
+       </div>
+
+   </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
